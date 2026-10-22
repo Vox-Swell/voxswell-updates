@@ -1,7 +1,22 @@
 {
   "schema": 2,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mandatory": false,
-  "notes": "VoxSwell 1.0.0",
-  "platforms": {}
+  "notes": "VoxSwell 1.1.0\n- Reverb controls: Decay (with Auto), Gap, Tone and Low Cut\n- Four swell curves: Soft, Classic, Late Bloom, S-Curve\n- Stereo swell from mono vocals, with a Width control\n- 18 tempo-synced lengths, including 1/8, dotted and triplet\n- Factory and user presets with A/B compare\n- Bar-aligned export and BWF timestamp so the swell lands right before the vocal\n- Swell + word output and 32-bit float export\n- Projects made with 1.0 sound exactly the same",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.0/VoxSwell-SwellAudio-1.1.0-Windows-x64-Setup.exe",
+      "size": 4414314,
+      "sha256": "a9cf0fc360bf127294c109f2ca543dc7020c45127bffc65b9a17ebbf4742f800"
+    },
+    "macos": {
+      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.0/VoxSwell-SwellAudio-1.1.0-macOS-universal.pkg",
+      "size": 6708336,
+      "sha256": "2857a3a2f57f5ffd88e79752136d4c7139a73d1a4f60a22889b6d503c5a8076d",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    }
+  }
 }
