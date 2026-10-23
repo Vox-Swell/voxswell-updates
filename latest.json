@@ -1,18 +1,18 @@
 {
   "schema": 2,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "mandatory": false,
-  "notes": "VoxSwell 1.1.1\n- Improved stability when removing VoxSwell from an effect slot on Windows.",
+  "notes": "VoxSwell 1.1.2\n- Remembers your plugin window size when reopened and saved with a project.\n- Smaller interface sizing, down to 60%.\n- New Clean Vocal Swell initial preset: gentle low cut, brighter tone and wider stereo.\n- Classic Swell and existing saved settings retain their original sound.",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.1/VoxSwell-SwellAudio-1.1.1-Windows-x64-Setup.exe",
-      "size": 4413811,
-      "sha256": "f48a36884bdc9f7c73ea352d6950165bdee3381f697df8b8de469bb16d4f0d36"
+      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.2/VoxSwell-SwellAudio-1.1.2-Windows-x64-Setup.exe",
+      "size": 4414146,
+      "sha256": "4941f18642db9bd78c85c94e69e77683840518336713068cac8c9f4101c7f7e4"
     },
     "macos": {
-      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.1/VoxSwell-SwellAudio-1.1.1-macOS-universal.pkg",
-      "size": 6709480,
-      "sha256": "62b1be15944965526c9920d76eadaf2e25b507795091099509dcf44c404a678f",
+      "url": "https://github.com/Vox-Swell/voxswell-updates/releases/download/v1.1.2/VoxSwell-SwellAudio-1.1.2-macOS-universal.pkg",
+      "size": 6712346,
+      "sha256": "bbed8942e31f074b2d1a09384bf1aa4d075e9bb6615aa2659e47d1b19161d4de",
       "architectures": [
         "arm64",
         "x86_64"
